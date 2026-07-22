@@ -20,7 +20,7 @@ st.set_page_config(
 # -------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\dinan\Downloads\github\novamart_clean.csv")
+    df = pd.read_csv(r"novamart_clean.csv")
 
     # Standardize column names
     df.columns = (
